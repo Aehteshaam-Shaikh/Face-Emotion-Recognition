@@ -2,6 +2,8 @@ from keras.models import model_from_json
 
 import cv2
 import numpy as np
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 model_json_file = 'model.json'
 model_weights_file = 'model.h5'

@@ -1,5 +1,4 @@
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
 from keras.models import model_from_json
 import cv2
 import numpy as np

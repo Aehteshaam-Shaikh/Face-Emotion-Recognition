@@ -1,4 +1,6 @@
 from flask import Flask, render_template, Response
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 from Video_Camera import VideoCamera
 

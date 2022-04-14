@@ -62,6 +62,7 @@ class VideoCamera:
 
 
 from flask import Flask, render_template, Response
+import VideoCamera
 
 app = Flask(__name__)
 
